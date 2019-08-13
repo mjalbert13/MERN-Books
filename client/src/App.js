@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import Saved from './Pages/Saved/Saved';
 import Search from './Pages/Search/Search';
 import Navbar from './Components/Navbar/Navbar'
@@ -12,8 +13,6 @@ class App extends Component {
        <Navbar />
        <Search />
      </div>
-
-    
     );
   }
 }

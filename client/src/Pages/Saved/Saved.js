@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import Card from '../../Components/Card/Card';
 
 class Saved extends Component  {
 
@@ -13,6 +13,7 @@ class Saved extends Component  {
                         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
                     </div>
                 </div>
+                <Card />
             </div>
         )
     }
