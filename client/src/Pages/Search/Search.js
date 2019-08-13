@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import SearchForm from '../../Components/SearchForm/SearchFrom'
 
 
 class Search extends Component  {
@@ -13,6 +14,7 @@ class Search extends Component  {
                         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
                     </div>
                 </div>
+                <SearchForm />
             </div>
         )
     }
