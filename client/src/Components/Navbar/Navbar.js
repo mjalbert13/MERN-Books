@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Link} from "react-router-dom";
 
 
 
@@ -14,14 +15,14 @@ render() {
             <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
-                    
+                   <Link to="/">
                     <a className="nav-link" href="/">Search </a>
-                   
+                    </Link>
                 </li>
                 <li className="nav-item">
-                
-                    <a className="nav-link" href="/">Saved</a>
-    
+                    <Link to ="/saved">
+                    <a className="nav-link" href="/saved" >Saved</a>
+                    </Link>
                 </li>
                 </ul>
             </div>
